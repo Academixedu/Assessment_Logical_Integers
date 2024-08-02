@@ -5,5 +5,15 @@ public class FindOdd{
   // 2
   // 5
   // This will be the output since they are in odd positions
-  
+  public static void main(String[] args) {
+  String s="122456";
+  for(int i=1;i<s.length();i++){
+      int sd=Character.getNumericValue(s.charAt(i-1));
+      if(i%2!=0){
+          System.out.println(sd);
+      }
+    
+  }
+
+  }
 }
